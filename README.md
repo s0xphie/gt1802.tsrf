@@ -1,22 +1,24 @@
-grilltag-mpc/<br>
-│<br>
-├── mpc/<br>
-│   ├── protocol.py        # The MPC contract (canonical interface)<br>
-│   ├── engine.py          # The Grill Tag simulator<br>
-│   ├── types.py           # Data structures<br>
-│   └── __init__.py<br>
-│<br>
-├── programs/<br>
-│   ├── grill_1802_phase0.gt<br>
-│   ├── grill_1802_phase1.gt<br>
-│   └── examples/<br>
-│       └── small.gt<br>
-│<br>
-├── queues/<br>
-│   ├── alt_1802_phase0.txt<br>
-│   ├── alt_1802_phase1.txt<br>
-│   └── examples/<br>
-│       └── small.txt<br>
-│<br>
-├── run.py                 # CLI entrypoint<br>
-└── README.md<br>
+```text
+grilltag-mpc/
+│
+├── mpc/
+│   ├── protocol.py        # The MPC contract (canonical interface)
+│   ├── engine.py          # The Grill Tag simulator
+│   ├── types.py           # Data structures
+│   └── __init__.py
+│
+├── programs/
+│   ├── grill_1802_phase0.gt
+│   ├── grill_1802_phase1.gt
+│   └── examples/
+│       └── small.gt
+│
+├── queues/
+│   ├── alt_1802_phase0.txt
+│   ├── alt_1802_phase1.txt
+│   └── examples/
+│       └── small.txt
+│
+├── run.py                 # CLI entrypoint
+└── README.md
+```
